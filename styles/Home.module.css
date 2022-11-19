@@ -2,6 +2,18 @@
   padding: 0 2rem;
 }
 
+.navElement {
+  margin-right: 1em;
+}
+
+.header {
+  display: flex;
+  background: red;
+  width:100vw;
+  height: 10em;
+  justify-content: center;
+}
+
 .main {
   min-height: 100vh;
   padding: 4rem 0;
@@ -43,6 +55,8 @@
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  display: flex;
+  align-items: center;
 }
 
 .title,
