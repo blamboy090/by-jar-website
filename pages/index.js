@@ -14,7 +14,8 @@ const Home = () => {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
+        <h1>Coming soon...</h1>
+        {/* <h1 className={styles.title}>
           <Image
             src="/jr-logo.png"
             alt="Vercel Logo"
@@ -33,7 +34,7 @@ const Home = () => {
           <Image src="/Tree.png" alt="Vercel Logo" width={314} height={246} />
 
           <Image src="/Door.png" alt="Vercel Logo" width={361} height={155} />
-        </div>
+        </div> */}
       </main>
     </div>
   );
