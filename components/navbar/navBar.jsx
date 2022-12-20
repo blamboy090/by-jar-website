@@ -1,14 +1,15 @@
 import Link from "next/link";
+import styles from './navBar.module.scss'
 
 const NavBar = () => {
   return (
-    <nav>
-      <div className="logo">
-        <h1>Navigation</h1>
-      </div>
-      <Link href="/">Home</Link>
-      <Link href="/about">About</Link>
-      <Link href="/contact">Contact</Link>
+    <nav className={styles.navContainer}>
+      <div className="logo"></div>
+      <Link href="/">home</Link>
+      <Link href="/books">books</Link>
+      <Link href="/contact">contact</Link>
+      <Link href="/need da link">youtube</Link>
+      <Link href="/need da link">ko-fi</Link>
     </nav>
   );
 };
