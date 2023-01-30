@@ -1,7 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
-import Footer from "../components/footer/footer";
-import Header from "../components/header/header";
 import styles from "../styles/Home.module.css";
 
 const Home = () => {
@@ -9,8 +6,11 @@ const Home = () => {
     <div className={styles.container}>
       <Head>
         <title>Jasmine Romero</title>
+        
         <meta name="description" content="Author Jasmine Romero's website" />
+        
         <link rel="icon" href="/jr-logo.png" />
+        
       </Head>
 
       <main className={styles.main}>
