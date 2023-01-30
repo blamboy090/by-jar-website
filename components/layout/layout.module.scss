@@ -1,7 +1,21 @@
 .layoutContainer {
-    font-family: 'Fraunces', serif;
-    height: 5.5rem;
-    background-color: #FBD6FB;
+  font-family: "Fraunces", serif;
+  height: 5.5rem;
+  background-color: #fbd6fb;
+
+  .buttons {
+    justify-content: center;
+    align-items: center;    
+    padding-top: 2rem;
     display: flex;
     flex-direction: row;
+  }
+
+  .redirect {
+    color: #665663;
+    padding-right: 2rem;
+  }
+  .redirect:hover {
+    color: #71b298;
+  }
 }
