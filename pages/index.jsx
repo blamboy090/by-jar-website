@@ -6,15 +6,12 @@ const Home = () => {
     <div className={styles.container}>
       <Head>
         <title>Jasmine Romero</title>
-        
-        <meta name="description" content="Author Jasmine Romero's website" />
-        
-        <link rel="icon" href="/jr-logo.png" />
-        
+        <meta name="description" content="Author Jasmine Romero's website" />        
+        <link rel="icon" href="/jr-logo.png" />        
       </Head>
 
       <main className={styles.main}>
-        <h1>Coming soon...</h1>
+        <h1 className={styles.text}>Coming soon...</h1>
         {/* <h1 className={styles.title}>
           <Image
             src="/jr-logo.png"

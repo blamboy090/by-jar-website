@@ -1,7 +1,11 @@
 .container {
+  font-family: 'Fraunces', serif;
+  
   padding: 0 2rem;
 }
-
+.text {
+  color: #8D71B2;
+}
 .navElement {
   margin-right: 1em;
 }
