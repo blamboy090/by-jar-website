@@ -22,6 +22,7 @@ export default function Layout({ children }) {
           </div>
         </div>
       </div>
+      <div className={styles.lineBreak}></div>
       {children}
     </header>
   );
