@@ -1,10 +1,11 @@
 .container {
-  font-family: 'Fraunces', serif;
-  
+  font-family: "Fraunces", serif;
+
   padding: 0 2rem;
 }
 .text {
-  color: #8D71B2;
+  color: #8d71b2;
+  white-space: nowrap;
 }
 .navElement {
   margin-right: 1em;
@@ -12,20 +13,37 @@
 
 .header {
   display: flex;
-  background: red;
-  width:100vw;
+  width: 100vw;
   height: 10em;
+  align-items: center;
   justify-content: center;
+  padding-top: 4rem;
+  padding-right: 20rem;
+}
+.content {
+  padding-top: 2rem;
+  margin-left: 20rem;
+  margin-right: 20rem;
+  display: flex;
+  flex-direction: row;
 }
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+}
+
+.aboutMe {
+  min-width: 400px;
+  max-width: 400px;
+}
+
+.portrait {
+  border-radius: 100%;
+  display: flex;
+  margin-left: 1rem;
 }
 
 .footer {
