@@ -1,14 +1,17 @@
 .container {
   font-family: "Fraunces", serif;
-
   padding: 0 2rem;
 }
+
 .text {
   color: #8d71b2;
   white-space: nowrap;
 }
 .navElement {
   margin-right: 1em;
+}
+
+.botImages {
 }
 
 .header {
@@ -28,16 +31,15 @@
   flex-direction: row;
 }
 
-.main {
-  min-height: 100vh;
+.homePage {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .aboutMe {
-  min-width: 400px;
-  max-width: 400px;
+  min-width: 200px;
+  max-width: 500px;
 }
 
 .portrait {
@@ -161,5 +163,24 @@
   }
   .logo img {
     filter: invert(1);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .portrait {
+    display: none;
+  }
+
+  .aboutMe {
+    min-width: 200px;
+    max-width: 375px;
   }
 }
