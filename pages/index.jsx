@@ -42,31 +42,27 @@ const Home = () => {
               <br />
               If you'd like to join her for a write-in, she streams writing
               sessions on YouTube.
+              <Image
+                src="/IMG_8730.jpg"
+                width={329}
+                height={440}
+                className={styles.portrait}
+                alt="Picture of the author"
+              ></Image>
             </p>
-            <Image
-              src="/IMG_8730.jpg"
-              width={329}
-              height={440}
-              className={styles.portrait}
-              alt="jasmine"
-            ></Image>
-          </div>
-          <div className={styles.botImages}>
-            <Image
-              src="/Tree.png"
-              width={314}
-              height={246}
-              className={styles.tree}
-            ></Image>
-            <Image
-              src="/Door.png"
-              width={361}
-              height={155}
-              className={styles.door}
-            ></Image>
           </div>
         </article>
+        <Image
+          src="/tree_door.png"
+          width={674}
+          height={246}
+          className={styles.tree}
+          
+        ></Image>
       </main>
+      <footer className={styles.footer}>
+        <p>FOOT</p>
+      </footer>
     </div>
   );
 };
