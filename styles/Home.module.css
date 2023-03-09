@@ -148,8 +148,8 @@
   margin-left: 0.5rem;
 }
 
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
+/* @media only screen and (max-width: 768px) {
+  
   .content {
     display: flex;
     flex-direction: column;
@@ -165,4 +165,4 @@
     min-width: 200px;
     max-width: 375px;
   }
-}
+} */
