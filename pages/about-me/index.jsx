@@ -4,7 +4,8 @@ import Image from "next/image";
 const AboutMe = () => {
   return (
     <div>
-      <main className={styles.container}>
+        <h1>About Page</h1>
+      {/* <main className={styles.container}>
         <header className={styles.header}>
           <img
             src="/jr-logo.png"
@@ -33,15 +34,16 @@ const AboutMe = () => {
             If you'd like to join her for a write-in, she streams writing
             sessions on YouTube.
           </p>
-          <img
-            src="/IMG_8730.jpg"
-            // width={329}
-            // height={440}
-            className={styles.portrait}
-            alt="Picture of the author"
-          />
+          <div className={styles.portraitContainer}>
+            <img
+              src="/IMG_8730.jpg"
+              width={658}             
+              alt="Picture of the author"
+              className={styles.portrait}
+            />
+          </div>
         </article>
-      </main>
+      </main> */}
       {/* <main className={styles.homePage}>
         <header className={styles.header}>
           <Image

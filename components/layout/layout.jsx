@@ -9,7 +9,8 @@ export default function Layout({ children }) {
   return (
     <header>
       <div className={styles.layoutContainer}>
-        <div className={styles.buttons}>
+        {/* <Navbar /> */}
+        {/* <div className={styles.buttons}>
           <HomeButton />
           <BooksButton />
           <NewsletterButton />
@@ -20,7 +21,7 @@ export default function Layout({ children }) {
           <div className={styles.redirect}>
             <Link href="https://ko-fi.com/">ko-fi</Link>
           </div>
-        </div>
+        </div> */}
       </div>
       <div className={styles.lineBreak}></div>
       {children}

@@ -1,12 +1,17 @@
 import "../styles/globals.css";
 import Layout from "../components/layout/layout";
-import {Fraunces} from '@next/font/google'
+import { Fraunces } from "@next/font/google";
+import Navbar from "../components/nav/NavBar";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Layout>
+    <>
+    <Navbar/>
       <Component {...pageProps} />
-    </Layout> 
+    </>
+    // <Layout>
+    //   <Component {...pageProps} />
+    // </Layout>
   );
 }
 
