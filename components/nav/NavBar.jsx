@@ -5,9 +5,12 @@ import NavItem from "./NavItem";
 import styles from "./nav.module.scss";
 
 const MENU_LIST = [
-  { text: "Home", href: "/" },
-  { text: "Books", href: "/books" },
-  { text: "Newsletter", href: "/newsletter" },
+  { text: "home", href: "/" },
+  { text: "books", href: "/books" },
+  { text: "newsletter", href: "/newsletter" },
+  { text: "contact", href: "/contact" },
+  { text: "youtube", href: "https://www.youtube.com/" },
+  { text: "ko-fi", href: "https://ko-fi.com/" },
 ];
 
 const Navbar = () => {
@@ -18,8 +21,8 @@ const Navbar = () => {
     <header className={styles.header}>
       <nav className={styles.nav}>
         <Link legacyBehavior href={"/"}>
-          <a onClick={()=>setActiveIdx(0)}>
-            <h1 className="logo">LOGO</h1>
+          <a onClick={() => setActiveIdx(0)}>
+            <h1 className="logo">jasmine romero</h1>
           </a>
         </Link>
         <div
@@ -31,7 +34,11 @@ const Navbar = () => {
           <div></div>
         </div>
 
-        <div className={`${styles.nav__menuList} ${navActive ? `${styles.active}` : ""}`}>
+        <div
+          className={`${styles.nav__menuList} ${
+            navActive ? `${styles.active}` : ""
+          }`}
+        >
           {MENU_LIST.map((menu, idx) => {
             return (
               <div

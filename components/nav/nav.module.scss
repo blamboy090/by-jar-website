@@ -10,7 +10,7 @@
   justify-content: space-between;
   align-items: center;
   //   background-color: antiquewhite;
-  background-color: #f1f1f1;
+  background-color: #fbd6fb;
 }
 .nav__menuBar {
   display: flex;
@@ -21,7 +21,7 @@
 .nav__menuBar div {
   width: 40px;
   height: 4px;
-  background-color: black;
+  background-color:#665663;
   border-radius: 2px;
 }
 
@@ -29,13 +29,13 @@
   display: flex;
   flex-direction: column;
   position: fixed;
-  top: 104px;
+  top: 105px;
   width: 288px;
   row-gap: 24px;
   padding: 24px 16px;
   right: -288px;
   min-height: calc(100vh - 60px);
-  background-color: #f1f1f1;
+  background-color: #fbd6fb;
   transition: all 0.3s;
 }
 .nav__menuList.active {
@@ -47,8 +47,8 @@
   position: relative;
   transition: all 0.3s;
 }
-.nav__link.active{
-    font-weight: bold;
+.nav__link.active {
+  font-weight: bold;
 }
 .nav__link:hover {
   font-weight: bold;
@@ -63,9 +63,9 @@
 // }
 
 @media screen and (min-width: 768px) {
-    .nav__menuBar{
-        display: none;
-    }
+  .nav__menuBar {
+    display: none;
+  }
   .nav__menuList {
     position: unset;
     min-height: fit-content;
@@ -78,17 +78,16 @@
     content: "";
     position: absolute;
     width: 0%;
-    bottom: -16px;
+    bottom: -2px;
     left: 0;
-    height: 6px;
+    height: 2px;
     transition: all 0.2s;
-    background-color: black;
+    background-color: #665663;
+    border-radius: 5px;
   }
 
-  .nav__link:hover::before, .nav__link.active::before {
+  .nav__link:hover::before,
+  .nav__link.active::before {
     width: 100%;
-  }
-  .nav__link.active{
-
   }
 }
